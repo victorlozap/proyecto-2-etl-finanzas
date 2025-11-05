@@ -1,0 +1,14 @@
+# Para análisis y transformación
+pandas
+
+# Para llamar a la API
+requests
+
+# Para la conexión a la base de datos SQL
+SQLAlchemy
+
+# El "conector" de Python para MySQL
+PyMySQL
+
+# Para manejar variables de entorno (.env)
+python-dotenv

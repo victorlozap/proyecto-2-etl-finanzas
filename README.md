@@ -56,3 +56,17 @@ El script `etl_finanzas.py` ejecuta el proceso completo en tres fases:
     ```bash
     python etl_finanzas.py
     ```
+
+    ---
+
+## Proyecto 3: Dashboard de BI con Power BI
+
+Como paso final del pipeline, los datos limpios almacenados en la base de datos MySQL (`finanzas_db`) se conectan a Power BI para crear un dashboard de análisis financiero.
+
+Este informe interactivo muestra la tendencia de precios (Gráfico de Velas con SMA de 20 días), el volumen de negociación y los KPIs clave (Último precio, Máximos/Mínimos y Volumen Promedio), permitiendo un análisis en tiempo real.
+
+**[¡Haz clic aquí para ver el dashboard interactivo en la web!](https://app.powerbi.com/groups/me/reports/7c2d9c4d-a54a-42b6-ad7d-919dc332952e/0d52565da6402f184855?experience=power-bi)**
+
+### Vista Previa del Dashboard
+
+[![Vista Previa del Dashboard](dashboard_preview.png)](https://app.powerbi.com/groups/me/reports/7c2d9c4d-a54a-42b6-ad7d-919dc332952e/0d52565da6402f184855?experience=power-bi)
